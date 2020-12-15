@@ -1,0 +1,69 @@
+html::-webkit-scrollbar {
+  width: 7px;
+  /* height: 86px; */
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00a1f7, #00ee90);
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #100e17 0, #100e17);
+}
+
+.autor {
+  color: #00cdbd;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog-meta {
+  color: #746f71;
+  font-family: "Poppins", sans-serif;
+}
+
+/* :: Modal Blog :: */
+
+.modal-title {
+  color: #fff !important;
+}
+
+.modal-dialog {
+  width: 850px !important;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 850px;
+    margin: 1.75rem auto;
+  }
+}
+
+.modal-header {
+  display: flex;
+  background-color: #0a183d !important;
+}
+
+.close:not(:disabled):not(.disabled):focus,
+.close:not(:disabled):not(.disabled):hover {
+  opacity: 1 !important;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff !important;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1 !important;
+}
+
+.txtContent {
+  text-align: justify;
+}
+
+.modal-open .modal {
+}
